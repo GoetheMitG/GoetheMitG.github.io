@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="../css/main_menu.css">
+      <link rel="stylesheet" href="../css/about_me.css">
+      <title>Über mich</title>
+  </head>
+  <body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggler" data-toggle="open-navbar1">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <a href="../index.html">
+          <h4>Long<span>schlong</span></h4>
+        </a>
+      </div>
+      <div class="navbar-menu" id="open-navbar1">
+        <ul class="navbar-nav">
+          <li><a href="../index.html">Hauptseite</a></li>
+          <li class="navbar-dropdown">
+            <a href="#" class="dropdown-toggler" data-dropdown="my-dropdown-id">
+              Inhalte  <i class="fa fa-angle-down"></i>
+            </a>
+            <ul class="dropdown" id="my-dropdown-id">
+              <li><a href="#">Fremdsprachen</a></li>
+              <li class="separator"></li>
+              <li><a href="#">Englisch</a></li>
+              <li><a href="#">Latein</a></li>
+              <li><a href="#">Französisch</a></li>
+              <li><a href="#">Spanisch</a></li>
+            </ul>
+          </li>
+          <li class="navbar-dropdown">
+            <a href="#" class="dropdown-toggler" data-dropdown="blog">
+              Entwicklung <i class="fa fa-angle-down"></i>
+            </a>
+            <ul class="dropdown" id="blog">
+              <li><a href="#">Some category</a></li>
+              <li><a href="#">Some another category</a></li>
+              <li class="separator"></li>
+              <li><a href="#">Seprated link</a></li>
+              <li class="separator"></li>
+              <li><a href="#">One more seprated link.</a></li>
+            </ul>
+          </li>
+          <li class="active"><a href="#">Über mich</a></li>
+          <li><a href="#">Kontakt</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="card">
+    <h1>Über mich<br><br>
+      <div class="type">Mein Name ist Marius</div>
+      <div class="type2">Ich bin 17 Jahre alt</div>
+      <div class="type3">Meine Hobbys sind:</div>
+      <div class="type4">&nbsp; &#9679; &nbsp;Freunde im <a class="link" href="https://discord.com/invite/GQ8BxjfD8P" target="_blank">Discord</a> treffen<br>
+                         &nbsp; &#9679; &nbsp;Computerspiele spielen<br>
+                         &nbsp; &#9679; &nbsp;Programmieren<br><br>
+      </div>
+      <div class="type5">Ich höre gerne <a class="link" href="https://youtube.com/playlist?list=PL1G5Tg9DzIZE5WzuQXmoQsc9MRvXVYZWu" target="_blank">Juice WRLD</a></div>
+      <div class="type6">Ausbildung zum Fachinformatiker (2. Lehrjahr)</div>
+      <div class="type7">Programmierkenntnisse:</div>
+      <div class="type8"> &nbsp; &#9679; &nbsp;Delphi<br>
+                          &nbsp; &#9679; &nbsp;SQL<br>
+                          &nbsp; &#9679; &nbsp;Java (Spring Boot)<br>
+                          &nbsp; &#9679; &nbsp;Typescript (Angular)<br>
+                          &nbsp; &#9679; &nbsp;Python<br><br>
+      </div>
+      <div>
+        <tr>
+          <th><a href="mailto:mschirra1806@gmail.com"><img class="mail" src="../images/mail.png" alt="E-Mail Adresse"></a></th>
+          <th><a href="https://www.instagram.com/marius._05_/ " target="_blank"><img class="insta" src="../images/insta.png" alt="Instagram Name"></a></th>
+          <th>
+            <img id="Img" src="/images/snap.jpg" name="/images/snapcode.png" class="snap" alt="marius_1806"/>
+            <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" id="img01" alt="">
+              <div id="caption"></div>
+            </div>
+          </th>
+          <th><a href="https://discord.com/invite/GQ8BxjfD8P" target="_blank"><img class="discord" src="../images/discord.png" alt="Discord Server"></a></th>
+          <th><a href="https://github.com/GoetheVonSchiller" target="_blank"><img class="github" src="../images/github.jpg" alt="Github Account"></a></th>
+        </tr>
+      </div>
+    </h1>
+  </div>
+  <script src="../js/main_menu.js" defer></script>
+  <script src="../js/about_me.js" defer></script>
+  </body>
+</html>
